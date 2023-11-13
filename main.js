@@ -5,7 +5,7 @@ let display = '';
 let historico = [];
 let result = '';
 const audio = new Audio();
-audio.src = '/assets/audio-btn/onclick.mp3';
+audio.src = './assets/audio-btn/onclick.mp3';
 
 /* Funcionalidade Dark/Light mode */ 
 function toggleMode() {
