@@ -1,8 +1,8 @@
 # Calculadora
 
-![image](https://github.com/andreisissi/calculadora/assets/108301269/eb9df76d-790e-4497-940c-6185477c944c)
+![image](https://github.com/andreisissi/calculadora-/assets/108301269/2e4713f4-f173-484b-acd3-b13a9da3a982)
 
-![image](https://github.com/andreisissi/calculadora/assets/108301269/24357f47-b2c9-441c-a16b-002e7c480d3c)
+![image](https://github.com/andreisissi/calculadora-/assets/108301269/f3b5254e-9dce-4d3a-986c-2731b145022b)
 
 #
 
