@@ -5,6 +5,31 @@ let display = '';
 let historico = [];
 let result = '';
 
+/* Funcionalidade Dark/Light mode */ 
+function toggleMode() {
+    const html = document.documentElement
+    const mode = html.classList.toggle('light')
+
+    if(mode) {
+        localStorage.setItem('lightMode', JSON.stringify(mode))
+    }
+}
+
+function btnMode() {
+    const modeBtn = localStorage.getItem('lightMode')
+
+    if (modeBtn) {
+        const isLightMode = JSON.parse(modeBtn);
+
+        const html = document.documentElement;
+        if (isLightMode) {
+            html.classList.add('light');
+        } else {
+            html.classList.remove('light');
+        }
+    }
+}
+btnMode()
 
 /* Função para fazer os números aparecerem no visor e limpa visor quando terminar uma operação */
 function number(num) {

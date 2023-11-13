@@ -24,7 +24,7 @@ body * {
     --background-body: #2b2e2f;
     --shadow-white-color: rgba(255, 255, 255, 0.1);
     --shadow-black-color: rgba(0, 0, 0, 0.5);
-    --switch-theme: url(/MoonStars.svg);
+    --switch-theme: url(/assets/images/MoonStars.svg);
 }
 
 .light {
@@ -36,7 +36,7 @@ body * {
     --background-body: #b0b7b9;
     --shadow-white-color: rgba(0, 0, 0, 0.5);
     --shadow-black-color: rgba(255, 255, 255, 0.1);
-    --switch-theme: url(/Sun.svg);
+    --switch-theme: url(/assets/images/Sun.svg);
 }
 
 .mode {
