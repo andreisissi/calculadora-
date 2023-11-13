@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/2530794_accounting_calculate_calculation_calculator_general_icon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="mode" onclick="toggleMode()">
+        <button title="Alterar tema">
+        </button>
+        <span></span>
+    </div>
+
+    <div class="container_pai">
+
+    <div id="calculator_body">
+
+        <!-- VISOR -->
+        <div id="visor"></div>
+
+        <!-- BOTÕES -->
+        <div class="container_button">
+            <button onclick="operacao('+')">+</button>
+            <button onclick="operacao('-')">-</button>
+            <button onclick="operacao('*')">*</button>
+            <button onclick="operacao('/')">/</button>
+        </div>
+
+        <div class="container_button">
+            <button onclick="number('7')">7</button>
+            <button onclick="number('8')">8</button>
+            <button onclick="number('9')">9</button>
+            <button style="background-color: rgb(246, 62, 62);" onclick="clean()">C</button>
+        </div>
+
+        <div class="container_button">
+            <button onclick="number('4')">4</button>
+            <button onclick="number('5')">5</button>
+            <button onclick="number('6')">6</button>
+            <button onclick="number('.')">.</button>
+        </div>
+
+        <div class="container_button">
+            <button onclick="number('1')">1</button>
+            <button onclick="number('2')">2</button>
+            <button onclick="number('3')">3</button>
+            <button style="background-color: rgb(35, 133, 35);" onclick="resultado()">=</button>
+        </div>
+
+        <div class="container_button">
+            <button onclick="number('0')">0</button>
+        </div>
+    </div>
+
+    <!-- HISTÓRICO  -->
+    <div id="container_historico">
+        <h3>Histórico</h3>
+        <div id="historico"></div>
+    </div>
+
+ </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div title="Visite meu GitHub!" id="copyright"><h4>© Developed By <a href="https://github.com/andreisissi" target="_blank">andreisissi</a></h4></div>
+    </footer>
+
+</body>
+</html>
